@@ -1,6 +1,7 @@
 public class Student {
-	String st;
-	public Student(String st) {
-		this.st=st;
-	}
+
+    public String name;
+    public int id;
+
 }
+
