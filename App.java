@@ -6,9 +6,9 @@ import java.sql.Statement;
 
 public class App {
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://106.13.29.184/linux_final";
+    static final String DB_URL = "jdbc:mysql://120.53.226.252/linux_final";
     static final String USER = "root";
-    static final String PASS = "Zou12345!";
+    static final String PASS = "0803123Ytt.";
 
     public static void main(String[] args) {
         Connection conn = null;
@@ -22,7 +22,7 @@ public class App {
             while (rs.next()) {
                 int id = rs.getInt("id");
                 String name = rs.getString("name");
-		System.out.printf("id: %d,name: %s", id, name);
+		System.out.printf("id: %d,name: %s\n", id, name);
             }
             rs.close();
             stmt.close();
